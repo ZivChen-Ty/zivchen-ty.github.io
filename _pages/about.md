@@ -68,7 +68,7 @@ Zhiheng Fu, Zixu Li, **Zhiwei Chen**, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 
 **MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) 
 
-Qinlei Huang, Zhiwei Chen, Zixu Li, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie,
+Qinlei Huang, **Zhiwei Chen**, Zixu Li, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie,
 </div>
 </div>
 
