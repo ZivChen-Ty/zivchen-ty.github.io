@@ -31,14 +31,13 @@ My research interests include *multimedia computing, information retrieval, and 
 # 📝 Publications 
 
 
-\* indicates equal contribution. † indicates corresponding author. ‡ indicates project leaders.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) 
+**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) 
 
-Zixu Li,  Zhiheng Fu,  Yupeng Hu†,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie,
+Zixu Li,  Zhiheng Fu,  Yupeng Hu,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie,
 </div>
 </div>
 
@@ -49,9 +48,30 @@ Zixu Li,  Zhiheng Fu,  Yupeng Hu†,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) 
 
-Zixu Li, **Zhiwei Chen**, Haokun Wen, Zhiheng Fu, Yupeng Hu†, Weili Guan
+Zixu Li, **Zhiwei Chen**, Haokun Wen, Zhiheng Fu, Yupeng Hu, Weili Guan
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/PAIR-ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) 
+
+Zhiheng Fu, Zixu Li, **Zhiwei Chen**, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Liqiang Nie
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/MEDIAN-ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) 
+
+Qinlei Huang, Zhiwei Chen, Zixu Li, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie,
+</div>
+</div>
+
 
 
 # 📖 Educations
