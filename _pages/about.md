@@ -37,7 +37,8 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) [[Code]](https://github.com/SDU-L/FineCIR) 
 
-Zixu Li,  Zhiheng Fu,  Yupeng Hu,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie
+[Zixu Li](https://lee-zixu.github.io),  Zhiheng Fu,  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [**Zhiwei Chen**](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
 </div>
 </div>
 
@@ -48,7 +49,8 @@ Zixu Li,  Zhiheng Fu,  Yupeng Hu,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
-Zixu Li, **Zhiwei Chen**, Haokun Wen, Zhiheng Fu, Yupeng Hu, Weili Guan
+[Zixu Li](https://lee-zixu.github.io), [**Zhiwei Chen**](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), Zhiheng Fu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
+
 </div>
 </div>
 
@@ -58,7 +60,7 @@ Zixu Li, **Zhiwei Chen**, Haokun Wen, Zhiheng Fu, Yupeng Hu, Weili Guan
 
 **PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
 
-Zhiheng Fu, Zixu Li, **Zhiwei Chen**, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Liqiang Nie
+Zhiheng Fu, [Zixu Li](https://lee-zixu.github.io), [**Zhiwei Chen**](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
 </div>
 
@@ -68,7 +70,8 @@ Zhiheng Fu, Zixu Li, **Zhiwei Chen**, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 
 **MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) [[Code]](https://drive.google.com/drive/u/3/folders/1ixh_JHkyPGzCM5ntApkA7xoQhgq1j-n_)  
  
-Qinlei Huang, **Zhiwei Chen**, Zixu Li, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie
+Qinlei Huang, [**Zhiwei Chen**](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
 </div>
 </div>
 
