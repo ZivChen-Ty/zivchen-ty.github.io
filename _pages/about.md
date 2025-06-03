@@ -37,7 +37,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) [[Code]](https://github.com/SDU-L/FineCIR) 
 
-[Zixu Li](https://lee-zixu.github.io),  Zhiheng Fu,  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [**Zhiwei Chen**](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zixu Li](https://lee-zixu.github.io),  Zhiheng Fu,  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [***Zhiwei Chen***](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -49,7 +49,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
-[Zixu Li](https://lee-zixu.github.io), [**Zhiwei Chen**](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), Zhiheng Fu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
+[Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), Zhiheng Fu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
 </div>
 </div>
@@ -60,7 +60,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
 
-Zhiheng Fu, [Zixu Li](https://lee-zixu.github.io), [**Zhiwei Chen**](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+Zhiheng Fu, [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
 </div>
 
@@ -70,7 +70,7 @@ Zhiheng Fu, [Zixu Li](https://lee-zixu.github.io), [**Zhiwei Chen**](https://ziv
 
 **MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) [[Code]](https://drive.google.com/drive/u/3/folders/1ixh_JHkyPGzCM5ntApkA7xoQhgq1j-n_)  
  
-Qinlei Huang, [**Zhiwei Chen**](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+Qinlei Huang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -84,7 +84,7 @@ Qinlei Huang, [**Zhiwei Chen**](https://zivchen-ty.github.io/), [Zixu Li](https:
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 
 # 🎖 Honors and Awards
-- *2024.09*: Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)
+- *2024.09*: Huawei Outstanding Technical Collaboration Award (***Top 10 globally per year***)
 - *2024.06*: Recipient of the Outstanding Graduate Award, Shandong University
 
 # 📖 Educations
