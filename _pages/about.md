@@ -28,6 +28,7 @@ My research interests include *multimedia computing, information retrieval, and 
 - *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
 - *2024.12.21*: &nbsp;🎉🎉 Two papers, with first authors being undergraduate students under my supervision, have been accepted to **ICASSP 2025**! Congratulations to our co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
+- *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
 
 
 # 📝 Publications 
