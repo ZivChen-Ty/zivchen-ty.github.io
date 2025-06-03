@@ -24,20 +24,20 @@ I'm currently a Master student in the [School of Software](https://www.sc.sdu.ed
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🔥 News
+- *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
+- *2024.12.21*: &nbsp;🎉🎉 Two papers, with first authors being undergraduate students under my supervision, have been accepted to **ICASSP 2025**! Congratulations to our co-authors!
+- *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
+
 
 # 📝 Publications 
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) [[Code]](https://github.com/SDU-L/FineCIR) 
 
-Zixu Li,  Zhiheng Fu,  Yupeng Hu,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie,
+Zixu Li,  Zhiheng Fu,  Yupeng Hu,  **Zhiwei Chen**,  Haokun Wen,  Liqiang Nie
 </div>
 </div>
 
@@ -74,12 +74,15 @@ Qinlei Huang, **Zhiwei Chen**, Zixu Li, Chunxiao Wang, Xuemeng Song, Yupeng Hu, 
 
 
 # 🔖 Patent 
+- (已授权)一种基于类社交先验的多模态语义表征方法及系统 - 公开号: *CN118194109A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202410235890.8/detail/abst)
+
 - 基于特征相似性和属性一致性协同约束的近似近邻混合检索的用户推荐方法及系统 - 公开号: *CN117453991A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202311201790.5/detail/abst)
 
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 
-
-- (已授权)一种基于类社交先验的多模态语义表征方法及系统 - 公开号: *CN118194109A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202410235890.8/detail/abst)
+# 🎖 Honors and Awards
+- *2024.09*: Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)
+- *2024.06*: Recipient of the Outstanding Graduate Award, Shandong University
 
 # 📖 Educations
 - *2024.09 - now*, Master in the School of Software, Shandong University. 
