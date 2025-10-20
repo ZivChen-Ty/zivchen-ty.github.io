@@ -25,6 +25,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 # 🔥 News
+- *2025.10.18*: &nbsp;🎉🎉 As the core member, our team wins the **Grand Prize** in the CICAS Smart Power Scenario Competition. Congratulations to all team members.!
 - *2025.07.05*: &nbsp;🎉🎉 Two paper have been accepted by **ACM MM 2025**! Thanks to our co-authors!
 - *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
 - *2024.12.21*: &nbsp;🎉🎉 Two papers, with first authors being undergraduate students under my supervision, have been accepted to **ICASSP 2025**! Congratulations to our co-authors!
@@ -120,6 +121,7 @@ Qinlei Huang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](http
 
 
 # 🎖 Honors and Awards
+- *2025.10*: **Grand Prize** in the CICAS Smart Power Scenario Competition
 - *2024.09*: Huawei Outstanding Technical Collaboration Award (***Top 10 globally per year***)
 - *2024.06*: Recipient of the Outstanding Graduate Award, Shandong University
 
