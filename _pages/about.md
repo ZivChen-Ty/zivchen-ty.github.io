@@ -25,7 +25,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 # 🔥 News
-- *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, and HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
+- *2025.11.08*: &nbsp;🎉🎉 Three papers were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
 - *2025.10.18*: &nbsp;🎉🎉 As the core member, our team wins the **Grand Prize** in the CICAS Smart Power Scenario Competition. Congratulations to all team members.!
 - *2025.07.05*: &nbsp;🎉🎉 Two paper have been accepted by **ACM MM 2025**! Thanks to our co-authors!
 - *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
