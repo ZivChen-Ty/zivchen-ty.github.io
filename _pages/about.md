@@ -161,3 +161,6 @@ Qinlei Huang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](http
 - *2024.09 - now*, Master in the School of Software, Shandong University. 
 - *2020.09 - 2024.08*, Bachelor in the School of Software, Shandong University. 
 
+# 📃 Services
+- Conference PC Member: AAAI, CIKM
+- Journal Reviewer: Information Sciences
