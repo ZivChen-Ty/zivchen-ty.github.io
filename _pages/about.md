@@ -38,7 +38,7 @@ My research interests include *multimedia computing, information retrieval, and 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div>< img src='images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [*Coming Soon*]
