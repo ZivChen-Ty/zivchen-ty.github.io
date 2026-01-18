@@ -25,6 +25,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 # 🔥 News
+- *2026.01.18*: &nbsp;🎉🎉 Three papers (HINT, RELATE, MELT), two of them **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2026**! Congratulations to all co-authors!
 - *2026.01.05*: &nbsp;🎉🎉 One paper was accepted by **ACM ToMM 2026**! Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
 - *2025.10.18*: &nbsp;🎉🎉 As the core member, our team wins the **Grand Prize** in the CICAS Smart Power Scenario Competition. Congratulations to all team members.!
