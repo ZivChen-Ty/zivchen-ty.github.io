@@ -25,31 +25,14 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 # 🔥 News
-- *2026.01.18*: &nbsp;🎉🎉 Three papers (HINT, RELATE, MELT), two of them **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2026**! Congratulations to all co-authors!
-- *2026.01.05*: &nbsp;🎉🎉 One paper was accepted by **ACM ToMM 2026**! Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
 - *2025.10.18*: &nbsp;🎉🎉 As the core member, our team wins the **Grand Prize** in the CICAS Smart Power Scenario Competition. Congratulations to all team members.!
 - *2025.07.05*: &nbsp;🎉🎉 Two paper have been accepted by **ACM MM 2025**! Thanks to our co-authors!
-- *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
-- *2024.12.21*: &nbsp;🎉🎉 Two papers, with first authors being undergraduate students under my supervision, have been accepted to **ICASSP 2025**! Congratulations to our co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
 
 
-# 📝 Publications 
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [*Coming Soon*]
-
-[Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Qinlei Huang, [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
-</div>
-</div>
-
-
+# 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
@@ -57,7 +40,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [*Coming Soon*]
 
-[***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io),[Zixu Li](https://lee-zixu.github.io), Jiale Huang, Qinlei Huang, [Yinwei Wei](https://weiyinwei.github.io)
+[***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io),[Zixu Li](https://lee-zixu.github.io), Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
 </div>
 </div>
@@ -68,7 +51,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [*Coming Soon*]
 
-[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Qinlei Huang, Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
 </div>
 </div>
@@ -79,7 +62,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [*Coming Soon*]
 
-[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Shiqi Zhang, Qinlei Huang, [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
 </div>
 </div>
@@ -108,19 +91,6 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/FineCIR.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) [[Code]](https://github.com/SDU-L/FineCIR) 
-
-[Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [***Zhiwei Chen***](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
-</div>
-</div>
-
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -131,26 +101,6 @@ My research interests include *multimedia computing, information retrieval, and 
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/PAIR-ICASSP25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
-
-[Zhiheng Fu](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/MEDIAN-ICASSP25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) [[Code]](https://drive.google.com/drive/u/3/folders/1ixh_JHkyPGzCM5ntApkA7xoQhgq1j-n_)  
- 
-Qinlei Huang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
-</div>
-</div>
 
 
 # 🔖 Patent 
