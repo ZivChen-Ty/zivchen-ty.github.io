@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhiwei Chen"
-  avatar           : "images/pic.jpg"
+  avatar           : "pic.jpg"
   bio              : 
   location         : "Jinan, Shandong, China"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/ZivChen-Ty # e.g., "github username"
+  github           : ZivChen-Ty # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
@@ -117,15 +117,40 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: default
+      layout: single
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 
 # Sass/SCSS
@@ -154,6 +179,12 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -161,3 +192,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
