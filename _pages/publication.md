@@ -214,7 +214,6 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 
 **PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
 
-<b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
 
 [Zhiheng Fu](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
@@ -227,7 +226,6 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 
 **MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) [[Code]](https://drive.google.com/drive/u/3/folders/1ixh_JHkyPGzCM5ntApkA7xoQhgq1j-n_)  
 
-<b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
 
 [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
