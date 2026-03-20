@@ -24,6 +24,60 @@ I'm currently a Master student in the [School of Software](https://www.sc.sdu.ed
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
 
+> 🏝️ I am a strong advocate for open science. All our team's projects are fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
+
+<br>
+<table style="width:100%; border:none; text-align:center; background-color:transparent;">
+  <tr style="border:none;">
+    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      < img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>AAAI 2026</b><br>
+      <span style="font-size: 0.9em;">
+        <!-- <a href="" target="_blank">Web</a > |  -->
+        <a href=" " target="_blank">Code</a > 
+        <!-- <a href="" target="_blank">Paper</a > -->
+      </span>
+    </td>
+    <td style="width:25%; border:none; vertical-align:top; padding-top:30px;">
+      < img src="../images/logos/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>AAAI 2026</b><br>
+      <span style="font-size: 0.9em;">
+        <!-- <a href="" target="_blank">Web</a > |  -->
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a >
+        <!-- <a href="" target="_blank">Paper</a > -->
+      </span>
+    </td>
+    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      < img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>AAAI 2026</b><br>
+      <span style="font-size: 0.9em;">
+        <!-- <a href="" target="_blank">Web</a > |  -->
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a >
+        <!-- <a href="" target="_blank">Paper</a > -->
+      </span>
+    </td>  
+    <td style="width:15%; border:none; vertical-align:top; padding-top:30px;">
+      < img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>ACM MM 2025</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a > | 
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a > | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a >
+      </span>
+    </td>
+    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      < img src="../images/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>AAAI 2025</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a > | 
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a > | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a >
+      </span>
+    </td>
+  </tr>
+</table>
+
+
 # 🔥 News
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
 - *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Congratulations to all co-authors!
