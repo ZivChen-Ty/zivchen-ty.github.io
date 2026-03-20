@@ -109,7 +109,7 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[PDF]](https://dl.acm.org/doi/10.1145/3796712) [[Website]](https://sdu-l.github.io/REFINE.github.io/)
+**REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[PDF]](https://dl.acm.org/doi/10.1145/3796712) [[Website]](https://lee-zixu.github.io/REFINE.github.io/)
 
 [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -117,10 +117,20 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Code]](https://github.com/ZivChen-Ty/INTENT)
+
+[***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [*Coming Soon*]
+**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) [[Code]](https://github.com/Lee-zixu/ReTrack)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
@@ -131,7 +141,7 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [*Coming Soon*]
+**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) [[Code]](https://github.com/Lee-zixu/HABIT)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -139,15 +149,6 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [*Coming Soon*]
-
-[***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
-
-</div>
-</div>
 
 <h2>2025</h2>
 
@@ -175,10 +176,10 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://zivchen-ty.github.io/">***Zhiwei Chen***</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, Chunxiao Wang, <a href="https://xuemengsong.github.io/">Xuemeng Song</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> <br>
 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025). </p> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
+**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET)
 
 [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -186,10 +187,10 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/)
+**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD)
 
 [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
@@ -211,7 +212,7 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='/images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
+**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://lee-zixu.github.io/ENCODER.github.io/) [[Code]](https://github.com/Lee-zixu/ENCODER) 
 
 [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 </div>
