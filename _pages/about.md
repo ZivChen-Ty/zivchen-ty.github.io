@@ -26,6 +26,8 @@ My research interests include *multimedia computing, information retrieval, and 
 
 > 🏝️ I am a strong advocate for open science. All our team's projects are fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
 
+# 🔛 Our Projects
+This is our repository. We invite everyone to follow and support the project. Thank you for your attention!🥰
 <br>
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
