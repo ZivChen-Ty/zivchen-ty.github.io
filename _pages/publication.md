@@ -120,7 +120,7 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Code]](https://github.com/ZivChen-Ty/INTENT)
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Website]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
 [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -130,7 +130,7 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) [[Code]](https://github.com/Lee-zixu/ReTrack)
+**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) [[Website]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
@@ -141,7 +141,7 @@ Guozhi Qiu, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) [[Code]](https://github.com/Lee-zixu/HABIT)
+**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) [[Website]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
