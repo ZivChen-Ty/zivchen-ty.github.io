@@ -27,7 +27,7 @@ My research interests include *multimedia computing, information retrieval, and 
 > 🏝️ *I am a strong advocate for open science. All the team projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.*
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
-This is our repository. We invite everyone to follow and support the project. Thank you for your attention! 🥰
+Here's the link to our repo! Feel free to check it out. Any feedback or support are always welcome. Thanks for taking a look! ✨
 <br>
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
