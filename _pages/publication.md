@@ -176,7 +176,7 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://zivchen-ty.github.io/">***Zhiwei Chen***</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, Chunxiao Wang, <a href="https://xuemengsong.github.io/">Xuemeng Song</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> <br>
 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025). </p> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET)
@@ -187,7 +187,7 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD)
