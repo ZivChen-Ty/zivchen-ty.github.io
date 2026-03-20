@@ -32,36 +32,36 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>INTENT (AAAI'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Web</a> |  -->
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
-      </span>
-    </td>  
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <img src="../images/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HABIT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ReTrack (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
       </span>
     </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>INTENT (AAAI'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
+      </span>
+    </td>  
     </tr>
   <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <img src="../images/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HUD (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
@@ -70,7 +70,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <img src="../images/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>OFFSET (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
@@ -79,7 +79,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <img src="../images/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ENCODER (AAAI'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
@@ -140,7 +140,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Code]](https://github.com/ZivChen-Ty/INTENT)
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Website]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
 [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io),[Zixu Li](https://lee-zixu.github.io), Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
