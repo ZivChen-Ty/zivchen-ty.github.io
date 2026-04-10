@@ -24,6 +24,7 @@ I'm currently a Master student in the [School of Software](https://www.sc.sdu.ed
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
 > 🔬 *I am affiliated with the Intelligent Media Research Center (iLearn). Our lab's projects and papers are all open-source [Link](https://github.com/iLearn-Lab), and we welcome your valuable feedback.*
+
 > 🏝️ *I am a strong advocate for open science. All the projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.*
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
