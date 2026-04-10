@@ -14,7 +14,7 @@ author_profile: true
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='/images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [Website](https://lee-zixu.github.io/TEMA.github.io/) [Code](https://github.com/Lee-zixu/ACL26-TEMA)
+**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Website]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
