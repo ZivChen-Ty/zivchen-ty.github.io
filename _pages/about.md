@@ -23,7 +23,7 @@ I'm currently a Master student in the [School of Software](https://www.sc.sdu.ed
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
-
+> 🔬 *I am affiliated with the Intelligent Media Research Center (iLearn). Our lab's projects and papers are all open-source [Link](https://github.com/iLearn-Lab), and we welcome your valuable feedback.*
 > 🏝️ *I am a strong advocate for open science. All the projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.*
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
@@ -31,6 +31,15 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <br>
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
+      <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/logos/tema-logo.png" alt="TEMA" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>TEMA (ACL'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
+        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a> -->
+      </span>
+    </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ConeSep (CVPR'26)</b><br>
@@ -49,6 +58,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a> -->
       </span>
     </td>  
+      </tr>
+  <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>INTENT (AAAI'26)</b><br>
@@ -58,8 +69,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
       </span>
     </td>  
-      </tr>
-  <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HABIT (AAAI'26)</b><br>
@@ -78,6 +87,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
       </span>
     </td>
+  </tr>
+  <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HUD (ACM MM'25)</b><br>
@@ -87,8 +98,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
       </span>
     </td>
-  </tr>
-  <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>OFFSET (ACM MM'25)</b><br>
@@ -112,6 +121,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 # 🔥 News
+- *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026**! Thanks to all co-authors!
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
 - *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
