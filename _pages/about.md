@@ -99,8 +99,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> 
       </span>
     </td>
-  </tr>
-  <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HUD (ACM MM'25)</b><br>
