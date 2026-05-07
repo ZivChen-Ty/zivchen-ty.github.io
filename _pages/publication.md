@@ -10,8 +10,8 @@ author_profile: true
 
 <h2>2026</h2>
 
-<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text-noline' markdown="1"> 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> 
 
 **COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [Coming Soon]
 
