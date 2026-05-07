@@ -36,27 +36,27 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/logos/tema-logo.png" alt="TEMA" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>TEMA (ACL'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
-        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a> -->
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ConeSep (CVPR'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>  
-        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a> -->
       </span>
     </td>  
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/airknow-logo.png" alt="Air-Know" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>Air-Know (CVPR'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="http://arxiv.org/abs/2604.19386" target="_blank">Paper</a> | 
         <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>  
-        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a> -->
       </span>
     </td>  
       </tr>
@@ -65,27 +65,27 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>INTENT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2604.18051" target="_blank">Paper</a> | 
         <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> 
       </span>
     </td>  
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HABIT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2604.18037" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> 
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ReTrack (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="http://arxiv.org/abs/2604.17898" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> 
       </span>
     </td>
   </tr>
@@ -94,27 +94,27 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HUD (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2512.02792" target="_blank">Paper</a> | 
         <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> | 
-        <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a>
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>OFFSET (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2507.05631" target="_blank">Paper</a> | 
         <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
-        <a href="https://dl.acm.org/doi/10.1145/3746027.3755366" target="_blank">Paper</a>
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a>
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ENCODER (AAAI'25)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a> |
         <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a>
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a>
       </span>
     </td>
   </tr>
@@ -122,6 +122,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 # 🔥 News
+- *2026.04.30*: &nbsp;🎉🎉 One paper (COMBINER), was accepted by **TIP 2026**! Thanks to all co-authors!
 - *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026**! Thanks to all co-authors!
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
 - *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Congratulations to all co-authors!
@@ -135,10 +136,20 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
 
 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [[Website]](https://lee-zixu.github.io/COMBINER.github.io/) [[Code]](https://github.com/Lee-zixu/COMBINER)
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [[Paper]](https://www.computer.org/csdl/journal/tk/5555/01/11450508/2f5S8Le2iZ2)
+**STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [[Paper]](https://arxiv.org/abs/2604.01617) [[Official Version]](https://www.computer.org/csdl/journal/tk/2026/06/11450508/2f5S8Le2iZ2)
 
 Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
@@ -148,7 +159,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Website]](https://lee-zixu.github.io/ConeSep.github.io/)  [[Code]](https://github.com/Lee-zixu/ConeSep)
+**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Website]](https://lee-zixu.github.io/ConeSep.github.io/)  [[Code]](https://github.com/Lee-zixu/ConeSep)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiwei Chen***](https://zivchen-ty.github.io/), Mingyu Zhang, [Zhiheng Fu](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -160,7 +171,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Website]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
+**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Website]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
 
 [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), Qianyun Yang, Shiqi Zhang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io)
 
@@ -203,7 +214,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET)
+**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2507.05631)  [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755366) 
 
 [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -214,7 +225,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD)
+**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[Paper]](https://arxiv.org/abs/2512.02792) [[Website]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755445) 
 
 [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
