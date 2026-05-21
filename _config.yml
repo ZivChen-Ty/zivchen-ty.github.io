@@ -151,7 +151,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-
+  # _challenges
+  - scope:
+      path: ""
+      type: challenges
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
