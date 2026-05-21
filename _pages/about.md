@@ -148,8 +148,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
 
 **COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [[Website]](https://lee-zixu.github.io/COMBINER.github.io/) [[Code]](https://github.com/Lee-zixu/COMBINER)
 
@@ -158,8 +158,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [[Paper]](https://arxiv.org/abs/2604.01617) [[Official Version]](https://www.computer.org/csdl/journal/tk/2026/06/11450508/2f5S8Le2iZ2)
 
@@ -168,8 +168,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Website]](https://lee-zixu.github.io/ConeSep.github.io/)  [[Code]](https://github.com/Lee-zixu/ConeSep)
 
@@ -180,8 +180,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Website]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
 
@@ -191,8 +191,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Website]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
@@ -202,8 +202,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2507.05631)  [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755366) 
 
@@ -213,8 +213,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[Paper]](https://arxiv.org/abs/2512.02792) [[Website]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755445) 
 
@@ -226,8 +226,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 # 📝 Challenge Technical Report <span style="font-size: 0.7 em;"></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st 🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st 🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [Coming Soon]
 
@@ -236,8 +236,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st 🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st 🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
 
 **TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [Coming Soon]
 
@@ -247,8 +247,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd 🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 2nd 🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
 
 **OmniEgo-R$^2$: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [Coming Soon]
 
@@ -258,8 +258,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd 🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 3rd 🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [Coming Soon]
 
