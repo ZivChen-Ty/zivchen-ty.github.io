@@ -285,18 +285,18 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 
 
-# 🎖 Honors and Awards
-- *2025.10*: **Grand Prize** in the CICAS Smart Power Scenario Competition
-- *2024.09*: Huawei Outstanding Technical Collaboration Award (***Top 10 globally per year***)
-- *2024.06*: Recipient of the Outstanding Graduate Award, Shandong University
-
-
 # 🏆 Competition
 - 1st place 🏅, CVPR HD-EPIC VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
 - 1st place 🏅, CVPR EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
 - 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
 - 2nd place 🥈, CVPR EgoCross (Open-Source Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
 - 3rd place 🥉, CVPR EPIC-KITCHENS-100 Action Detection Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
+
+
+# 🎖 Honors and Awards
+- *2025.10*: **Grand Prize** in the CICAS Smart Power Scenario Competition
+- *2024.09*: Huawei Outstanding Technical Collaboration Award (***Top 10 globally per year***)
+- *2024.06*: Recipient of the Outstanding Graduate Award, Shandong University
 
 
 # 📖 Educations
