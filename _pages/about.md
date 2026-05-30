@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I am Zhiwei Chen (陈智伟).
 =====
-I'm currently a Master student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). 
+I'm currently a Ph.D. student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). 
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
@@ -300,8 +300,8 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 
 # 📖 Educations
-- *2024.09 - now*, Master in the School of Software, Shandong University. 
-- *2020.09 - 2024.08*, Bachelor in the School of Software, Shandong University. 
+- *2024.09 - now*, integrated Master-Ph.D. program in the School of Software, Shandong University.
+- *2020.09 - 2024.08*, Bachelor in the School of Software, Shandong University.
 
 # 📃 Services
 - Conference PC Member: AAAI, CIKM
