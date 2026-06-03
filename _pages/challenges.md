@@ -10,6 +10,16 @@ author_profile: true
 
 <h2>2026</h2>
 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st 🏅</div><img src='/images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st 🏅</div><img src='/images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
