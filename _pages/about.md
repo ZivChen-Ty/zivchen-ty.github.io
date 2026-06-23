@@ -314,6 +314,81 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 </div>
 
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
+
+<div class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiheng Fu](https://zhihfu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div> 
+
+
+<div class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](http://arxiv.org/abs/2604.17898) [[Project]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) 
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
+
+</div>
+</div>
+
+<div class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18037) [[Project]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) 
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiwei Chen***](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
+
+
+ 
+</div>
+</div>
+
+
+<div class='paper-box floating-card' data-tags="AAAI 2025, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Project]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://github.com/Lee-zixu/ENCODER) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/32541)
+
+[Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
+
+
+ 
+</div>
+</div>
+
+
+<div class='paper-box floating-card' data-tags="Preprint, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
+
+[Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉,  [***Zhiwei Chen***](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+ 
+</div>
+</div>
+
+<div class='paper-box floating-card' data-tags="ACM ToMM 2026, CCF B"><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[Paper]](https://dl.acm.org/doi/10.1145/3796712) [[Project]](https://sdu-l.github.io/REFINE.github.io/) [[Code]](https://github.com/iLearn-Lab/TOMM26-REFINE) [[Official Version]](https://dl.acm.org/doi/10.1145/3796712) 
+
+[Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/)✉, [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+
+ 
+</div>
+</div> 
+
+
+
+
+
+
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
