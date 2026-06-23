@@ -8,6 +8,88 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+/* 动态标签和过滤器按钮的预设样式 */
+#filter-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid #e1e4e8;
+  border-radius: 20px;
+  background-color: #f6f8fa;
+  color: #586069;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-btn:hover {
+  background-color: #eaecef;
+  color: #24292e;
+}
+.filter-btn.active {
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(17, 153, 142, 0.3);
+}
+.badge-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.inner-tag-badge {
+  font-size: 0.75em;
+  padding: 2px 8px;
+  background-color: #f1f3f5;
+  color: #495057;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  transition: all 0.2s ease;
+}
+.inner-tag-badge.active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+  font-weight: bold;
+}
+.venue-full-name {
+  font-size: 0.85em;
+  color: #6a737d;
+  font-style: italic;
+  margin: 4px 0;
+}
+.paper-link-container {
+  margin-top: 8px;
+}
+.paper-link-btn {
+  font-size: 0.85em;
+  padding: 2px 8px;
+  margin-right: 4px;
+  background-color: #fff;
+  border: 1px solid #0366d6;
+  color: #0366d6 !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+.paper-link-btn:hover {
+  background-color: #0366d6;
+  color: #fff !important;
+}
+.author-self {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.floating-card {
+  transition: opacity 0.3s ease;
+}
+</style>
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -146,13 +228,13 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
 
 
-# 📝 Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
+# 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<h1 id="challenge-technical-report">📝 Selected Publications</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
 
 <div class='paper-box floating-card' data-tags="TIP 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -295,7 +377,14 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!wrapper) return;
 
   const filterContainer = document.getElementById('filter-container');
-  const paperBoxes = wrapper.querySelectorAll('.paper-box');
+
+  const allElements = Array.from(wrapper.children).filter(el => el.id !== 'filter-container');
+  const paperBoxes = allElements.filter(el => el.classList.contains('paper-box'));
+
+  allElements.forEach((el, index) => {
+    el.dataset.originalOrder = String(index);
+  });
+
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026']);
   const venueFullNames = {
@@ -424,12 +513,47 @@ document.addEventListener('DOMContentLoaded', function() {
     paperBoxes.forEach(box => {
       const boxTagsString = box.getAttribute('data-tags');
       const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
-      const isVisible = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
-      box.classList.toggle('hidden', !isVisible);
+      const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+
+      box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
+
       box.querySelectorAll('.inner-tag-badge').forEach(badge => {
         badge.classList.toggle('active', activeTags.has(badge.textContent));
       });
     });
+
+    if (activeTags.size > 0) {
+      const sortedElements = [...allElements].sort((a, b) => {
+        const aIsBox = a.classList.contains('paper-box');
+        const bIsBox = b.classList.contains('paper-box');
+        
+        let aScore = 1;
+        if (aIsBox) {
+          const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+          const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
+          aScore = aMatched ? 0 : 2;
+        }
+
+        let bScore = 1;
+        if (bIsBox) {
+          const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+          const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
+          bScore = bMatched ? 0 : 2;
+        }
+
+        if (aScore !== bScore) {
+          return aScore - bScore;
+        }
+        
+        return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+      });
+      
+      sortedElements.forEach(el => wrapper.appendChild(el));
+    } else {
+      allElements
+        .sort((a, b) => Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder))
+        .forEach(el => wrapper.appendChild(el));
+    }
   }
 });
 </script>
