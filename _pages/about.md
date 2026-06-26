@@ -414,7 +414,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, First Author, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24500)
@@ -430,7 +430,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24481)
 
-[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io),  Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zixu Li](https://lee-zixu.github.io), [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io),  Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>  
 </div>
@@ -441,7 +441,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24496)
 
-[Zhiheng Fu](https://zhihfu.github.io),  [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), Fangxu Liu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zhiheng Fu](https://zhihfu.github.io),  [Zixu Li](https://lee-zixu.github.io)†, [***Zhiwei Chen***](https://zivchen-ty.github.io/), Fangxu Liu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -684,6 +684,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 # 🎖 Honors and Awards
+- *2025.11*: BYD Scholarship
 - *2025.10*: **Grand Prize** in the CICAS Smart Power Scenario Competition
 - *2024.09*: Huawei Outstanding Technical Collaboration Award (***Top 10 globally per year***)
 - *2024.06*: Recipient of the Outstanding Graduate Award, Shandong University
