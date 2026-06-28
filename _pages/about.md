@@ -9,6 +9,558 @@ redirect_from:
 ---
 
 <style>
+/* Research roadmap and industry project styles */
+.research-intro {
+  font-size: 1.02em;
+  line-height: 1.72;
+  color: #24292e;
+  margin-bottom: 1rem;
+}
+.research-intro strong { color: #012F63; }
+.language-switcher {
+  margin: 1rem 0 1.4rem 0;
+}
+.language-tabs {
+  display: inline-flex;
+  gap: 0.35rem;
+  padding: 0.28rem;
+  border-radius: 999px;
+  background: #f6f8fa;
+  border: 1px solid rgba(1,47,99,0.08);
+  box-shadow: 0 4px 14px rgba(1,47,99,0.05);
+  margin-bottom: 1rem;
+}
+.lang-tab {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.42rem 0.92rem;
+  background: transparent;
+  color: #586069;
+  font-size: 0.86rem;
+  font-weight: 850;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.lang-tab:hover,
+.lang-tab.active {
+  color: #fff;
+  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  box-shadow: 0 6px 16px rgba(254,102,123,0.18);
+}
+.lang-panel { display: none; }
+.lang-panel.active { display: block; }
+/* Global bilingual blocks controlled by the top language tabs */
+.i18n-zh,
+.i18n-zh-inline,
+.i18n-zh-flex,
+.i18n-zh-list { display: none !important; }
+body.lang-zh .i18n-en,
+body.lang-zh .i18n-en-inline,
+body.lang-zh .i18n-en-flex,
+body.lang-zh .i18n-en-list { display: none !important; }
+body.lang-zh .i18n-zh { display: block !important; }
+body.lang-zh .i18n-zh-inline { display: inline !important; }
+body.lang-zh .i18n-zh-flex { display: inline-flex !important; }
+body.lang-zh .i18n-zh-list { display: list-item !important; }
+body.lang-en .i18n-en { display: block !important; }
+body.lang-en .i18n-en-inline { display: inline !important; }
+body.lang-en .i18n-en-flex { display: inline-flex !important; }
+body.lang-en .i18n-en-list { display: list-item !important; }
+.industry-project-title {
+  margin-bottom: 0.75rem;
+  color: #24292e;
+  line-height: 1.55;
+}
+.open-science-note {
+  margin: 1rem 0 1.8rem 0;
+  padding: 1rem 1.1rem;
+  border-left: 4px solid #0366d6;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  box-shadow: 0 6px 18px rgba(1,47,99,0.06);
+  color: #012F63;
+}
+.open-science-note p {
+  margin: 0.35rem 0;
+  line-height: 1.65;
+}
+.research-map {
+  margin: 1.4rem 0 1.8rem 0;
+  padding: 1.2rem;
+  border: 1px dashed rgba(1,47,99,0.22);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 30px rgba(1,47,99,0.06);
+}
+.research-map-caption {
+  text-align: center;
+  font-weight: 700;
+  color: #012F63;
+  margin-bottom: 0.9rem;
+}
+.research-lane-label {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  margin: 0.2rem 0 0.65rem 0;
+}
+.research-map > .research-lane-label {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0.35rem;
+  margin-bottom: 0.85rem;
+}
+.research-lane > .research-lane-label {
+  grid-column: 1 / -1;
+  justify-self: center;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+.research-lane.bottom-lane > .research-lane-label.blue {
+  margin-top: 1.65rem;
+  margin-bottom: -0.65rem;
+  transform: none;
+}
+.research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
+.research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
+.research-lane {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+.research-lane.top-lane { margin-bottom: 2.75rem; }
+.research-lane.bottom-lane { margin-top: 2.75rem; }
+.research-node {
+  display: block;
+  position: relative;
+  min-height: 132px;
+  padding: 0.85rem 0.8rem;
+  border-radius: 14px;
+  text-decoration: none !important;
+  color: inherit !important;
+  background: #fff;
+  border: 1px solid rgba(1,47,99,0.08);
+  box-shadow: 0 6px 18px rgba(1,47,99,0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.research-node:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 32px rgba(1,47,99,0.14);
+  border-color: rgba(254,102,123,0.35);
+}
+.research-node.orange { background: linear-gradient(180deg, #fffaf6, #ffffff); }
+.research-node.blue { background: linear-gradient(180deg, #f6fbff, #ffffff); }
+.research-node.orange:before,
+.research-node.blue:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 3;
+}
+.research-node.orange:after,
+.research-node.blue:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2.75rem;
+  z-index: 2;
+}
+.research-node.orange:before {
+  bottom: -1.08rem;
+  border: 2px solid #f39a54;
+  box-shadow: 0 0 0 4px rgba(243,154,84,0.10);
+}
+.research-node.orange:after {
+  bottom: -2.75rem;
+  border-left: 2px dashed rgba(243,154,84,0.78);
+}
+.research-node.blue:before {
+  top: -1.08rem;
+  border: 2px solid #4d96dd;
+  box-shadow: 0 0 0 4px rgba(77,150,221,0.10);
+}
+.research-node.blue:after {
+  top: -2.75rem;
+  border-left: 2px dashed rgba(77,150,221,0.78);
+}
+.node-title { font-weight: 800; color: #012F63; margin-bottom: 0.32rem; }
+.node-desc { font-size: 0.78rem; color: #586069; line-height: 1.42; min-height: 2.2rem; }
+.node-papers { margin-top: 0.55rem; font-size: 0.78rem; font-weight: 700; color: #FE667B; line-height: 1.35; }
+.node-paper-link {
+  display: inline-block;
+  margin: 0.12rem 0.16rem 0.12rem 0;
+  padding: 0.16rem 0.42rem;
+  border-radius: 999px;
+  color: #FE667B !important;
+  background: rgba(254,102,123,0.08);
+  border: 1px solid rgba(254,102,123,0.16);
+  text-decoration: none !important;
+  transition: all 0.22s ease;
+}
+.node-paper-link:hover {
+  color: #fff !important;
+  background: #FE667B;
+  border-color: #FE667B;
+}
+.roadmap-back-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 999;
+  display: none;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(1,47,99,0.12);
+  background: linear-gradient(135deg, #012F63 0%, #2f6fb3 100%);
+  color: #fff !important;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none !important;
+  box-shadow: 0 10px 28px rgba(1,47,99,0.22);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+}
+.roadmap-back-btn.show {
+  display: inline-flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+.roadmap-back-btn:hover {
+  color: #fff !important;
+  box-shadow: 0 14px 36px rgba(1,47,99,0.30);
+  transform: translateY(-2px);
+}
+.research-arrow {
+  position: relative;
+  margin: 1rem 2.4rem 1rem 0;
+  height: 56px;
+  border-radius: 999px 0 0 999px;
+  background: linear-gradient(90deg, #ffd6b5 0%, #ffd3dc 42%, #9ec7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 5px rgba(1,47,99,0.28);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.45), 0 8px 24px rgba(1,47,99,0.08);
+}
+.research-arrow:after {
+  content: '';
+  position: absolute;
+  right: -38px;
+  top: -7px;
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 40px solid #9ec7ff;
+}
+.huawei-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+}
+.huawei-highlights span {
+  display: block;
+  background: #f6f8fa;
+  border: 1px solid #eaecef;
+  border-radius: 10px;
+  padding: 0.45rem 0.6rem;
+  line-height: 1.55;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.huawei-highlights span span {
+  display: inline;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  line-height: inherit;
+  overflow-wrap: normal;
+}
+.opensource-section {
+  margin: 2rem 0 2.2rem 0;
+  padding: 1.2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(1,47,99,0.08);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 30px rgba(1,47,99,0.06);
+}
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.28rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(254,102,123,0.08);
+  color: #FE667B;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.opensource-title {
+  margin: 0.65rem 0 0.3rem 0;
+  color: #012F63;
+  font-size: 1.45rem;
+  font-weight: 850;
+}
+.opensource-subtitle {
+  margin: 0 0 1.05rem 0;
+  color: #586069;
+  line-height: 1.65;
+}
+.opensource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  max-height: calc(225px * 2 + 0.85rem);
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  scroll-behavior: smooth;
+}
+.opensource-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 225px;
+  padding: 1rem 0.85rem;
+  border-radius: 15px;
+  border: 1px solid rgba(1,47,99,0.08);
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(1,47,99,0.07);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+.opensource-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 32px rgba(1,47,99,0.14);
+  border-color: rgba(254,102,123,0.32);
+}
+.opensource-grid::-webkit-scrollbar,
+.news-grid::-webkit-scrollbar { width: 8px; }
+.opensource-grid::-webkit-scrollbar-thumb,
+.news-grid::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FE667B 0%, #6aa9ff 100%);
+  border-radius: 999px;
+}
+.opensource-grid::-webkit-scrollbar-track,
+.news-grid::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 999px;
+}
+.opensource-card img {
+  width: auto;
+  height: 98px;
+  max-width: 80%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  transform: none !important;
+  box-shadow: none !important;
+  transition: none !important;
+}
+.opensource-card:hover img {
+  transform: none !important;
+  box-shadow: none !important;
+}
+.opensource-card-title,
+.opensource-card-meta,
+.opensource-card-links { position: relative; z-index: 2; }
+.opensource-card-title {
+  color: #012F63;
+  font-size: 0.95rem;
+  font-weight: 850;
+  margin-bottom: 0.25rem;
+}
+.opensource-card-meta {
+  color: #FE667B;
+  font-size: 0.78rem;
+  font-weight: 750;
+  margin-bottom: 0.4rem;
+}
+.opensource-card-links {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: center;
+}
+.opensource-card-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.18rem 0.52rem;
+  border-radius: 999px;
+  border: 1px solid rgba(3,102,214,0.16);
+  background: rgba(3,102,214,0.06);
+  color: #0366d6 !important;
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.opensource-card-links a:hover {
+  transform: translateY(-2px);
+  background: #0366d6;
+  border-color: #0366d6;
+  color: #fff !important;
+  box-shadow: 0 6px 16px rgba(3,102,214,0.22);
+}
+.news-section {
+  margin: 2rem 0 2.2rem 0;
+  padding: 1.2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(1,47,99,0.08);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 30px rgba(1,47,99,0.06);
+}
+.news-title {
+  margin: 0.65rem 0 1rem 0;
+  color: #012F63;
+  font-size: 1.45rem;
+  font-weight: 850;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  max-height: 430px;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  scroll-behavior: smooth;
+}
+.news-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6.8rem 1fr;
+  gap: 0.8rem;
+  align-items: start;
+  padding: 0.9rem 0.95rem;
+  border-radius: 14px;
+  border: 1px solid rgba(1,47,99,0.08);
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(1,47,99,0.06);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(1,47,99,0.12);
+  border-color: rgba(254,102,123,0.22);
+}
+
+.news-date {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.26rem 0.5rem;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  font-size: 0.78rem;
+  font-weight: 850;
+  box-shadow: 0 5px 14px rgba(254,102,123,0.18);
+}
+.news-text {
+  color: #24292e;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.news-text strong { color: #012F63; }
+
+.highlight-red { color: #FE667B; font-weight: 850; }
+.highlight-blue { color: #0366d6; font-weight: 850; }
+.highlight-gold { color: #b7791f; font-weight: 850; }
+.award-ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.65rem 0 0.8rem 0;
+}
+.award-ribbon span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.34rem 0.72rem;
+  border-radius: 999px;
+  color: #7a4b00;
+  background: linear-gradient(135deg, #fff7d6, #ffe5a3);
+  border: 1px solid rgba(183,121,31,0.22);
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+.benchmark-orgs {
+  margin-top: 0.8rem;
+  padding: 0.85rem;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  border: 1px solid rgba(1,47,99,0.08);
+}
+.benchmark-orgs-title {
+  color: #012F63;
+  font-weight: 850;
+  margin-bottom: 0.55rem;
+}
+.org-logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+.org-logo-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 34px;
+  padding: 0.32rem 0.58rem;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(1,47,99,0.08);
+  box-shadow: 0 3px 10px rgba(1,47,99,0.05);
+  color: #24292e;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+.org-logo-card img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+@media (max-width: 720px) {
+  .research-lane { grid-template-columns: 1fr; }
+  .research-lane.top-lane, .research-lane.bottom-lane { margin: 0; }
+  .research-node.orange:before, .research-node.orange:after, .research-node.blue:before, .research-node.blue:after { display: none; }
+  .research-arrow { height: auto; min-height: 58px; padding: 0.75rem 1rem; text-align: center; border-radius: 18px; }
+  .research-arrow:after { display: none; }
+  .huawei-highlights { grid-template-columns: 1fr; }
+  .opensource-grid { grid-template-columns: 1fr; }
+  .news-grid { grid-template-columns: 1fr; }
+  .news-card { grid-template-columns: 1fr; }
+  .roadmap-back-btn { right: 14px; bottom: 14px; padding: 0.55rem 0.8rem; font-size: 0.78rem; }
+}
+
 /* 动态标签和过滤器按钮的预设样式 */
 #filter-container {
   margin: 20px 0;
@@ -88,8 +640,21 @@ redirect_from:
 .floating-card {
   transition: opacity 0.3s ease;
 }
+.paper-box {
+  border: 2px solid transparent !important;
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+              linear-gradient(135deg, rgba(1,47,99,0.08), rgba(1,47,99,0.08)) border-box !important;
+}
+.paper-box::before {
+  display: none !important;
+}
+.paper-box:hover {
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+              linear-gradient(135deg, #FE667B 0%, #ff8599 45%, #a29bfe 100%) border-box !important;
+  border-color: transparent !important;
+}
 </style>
-
+ 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -101,132 +666,212 @@ redirect_from:
 
 Hi, I am Zhiwei Chen (陈智伟).
 =====
-I'm currently a Ph.D. student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), working closely with Dr. [Zixu Li](https://lee-zixu.github.io)
 
-My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
+<div class="language-switcher" id="research-language-switcher">
+  <div class="language-tabs" role="tablist" aria-label="Research introduction language selector">
+    <button class="lang-tab active" type="button" data-lang="en" role="tab" aria-selected="true">English</button>
+    <button class="lang-tab" type="button" data-lang="zh" role="tab" aria-selected="false">中文</button>
+  </div>
 
-> 🔬 *I am affiliated with the Intelligent Media Research Center (iLearn). Our lab's projects and papers are all open-source [Link](https://github.com/iLearn-Lab), and we welcome your valuable feedback.*
+  <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
+    <div class="research-intro">
+      <p>Welcome to my homepage! I am currently a Ph.D. student in the <a href="https://www.sc.sdu.edu.cn">School of Software</a>, <a href="https://www.sdu.edu.cn">Shandong University</a>, under the supervision of Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, working closely with Dr. <a href="https://lee-zixu.github.io">Zixu Li</a>. My research interests mainly focus on <strong>multimodal understanding, robust cross-modal learning, trustworthy evaluation, and approximate nearest neighbor search</strong>.</p>
+      <p>My research follows the trajectory of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video understanding, attribute-aware representation learning, and robust intent disentanglement, with representative works including <strong>COMBINER</strong>, <strong>STABLE</strong>, <strong>ConeSep</strong>, <strong>Air-Know</strong>, <strong>INTENT</strong>, <strong>HABIT</strong>, <strong>HUD</strong>, <strong>OFFSET</strong>, and <strong>ENCODER</strong>. On the evaluation side, I have contributed to long-form video and egocentric vision reasoning systems, including the CVPRW challenge technical reports <strong>R<sup>3</sup></strong>, <strong>TempRet</strong>, <strong>EgoAdapt</strong>, <strong>OmniEgo-R<sup>2</sup></strong>, and <strong>EgoAction</strong>.</p>
+      <p>Beyond publications, I actively participate in open-source research and industry-scale systems. As a core member of the Huawei collaboration project on general-purpose vector search, I contributed to the QSGNGT graph-indexing algorithm and its optimization for high-throughput vector search. The project has continuously ranked first worldwide on ANN-Benchmarks since 2023 and supports Huawei Cloud GaussDB / CSS VectorDB. I have been recognized with the <strong>Huawei Outstanding Technical Collaboration Award</strong>, the <strong>BYD Scholarship</strong>, and the <strong>Grand Prize</strong> in the CICAS Smart Power Scenario Competition.</p>
+    </div>
+    <div class="research-map" id="research-map">
+      <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
+      <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
+      <div class="research-lane top-lane">
+        <div class="research-node orange">
+          <div class="node-title">Multimodal Semantic Fusion</div>
+          <div class="node-desc">Designing entity-attribute-relation alignment algorithms to optimize cross-modal semantic interaction structures.</div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a></div>
+        </div>
+        <div class="research-node orange">
+          <div class="node-title">Complex-scene Intent Feature Disentanglement</div>
+          <div class="node-desc">Developing robust denoising and feature extraction algorithms for complex noise and intent distortion.</div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
+        </div>
+        <div class="research-node orange">
+          <div class="node-title">Attribute-aware Efficient Representation</div>
+          <div class="node-desc">Building lightweight yet accurate representation learning with attribute-neighborhood topology and acceleration strategies.</div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div>
+        </div>
+      </div>
+      <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
+      <div class="research-lane bottom-lane">
+        <div class="research-node blue">
+          <div class="node-title">Evidence-driven Hallucination Diagnosis and Disambiguation</div>
+          <div class="node-desc">Constructing multimodal external evidence chains to evaluate and mitigate model uncertainty and hallucination.</div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-retrack">ReTrack [AAAI 2026]</a><a class="node-paper-link" href="#paper-hud">HUD [ACM MM 2025]</a><a class="node-paper-link" href="#paper-r3">R<sup>3</sup> [CVPRW 2026]</a></div>
+        </div>
+        <div class="research-node blue">
+          <div class="node-title">Trustworthy Knowledge Calibration</div>
+          <div class="node-desc">Building noise-separation frameworks for calibrated and trustworthy alignment of large-model outputs.</div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-conesep">ConeSep [CVPR 2026]</a><a class="node-paper-link" href="#paper-airknow">Air-Know [CVPR 2026]</a><a class="node-paper-link" href="#paper-offset">OFFSET [ACM MM 2025]</a></div>
+        </div>
+        <div class="research-node blue">
+          <div class="node-title">Fine-grained Evaluation Benchmark Construction</div>
+          <div class="node-desc">Constructing fine-grained multimodal benchmarks for complex contextual and open-world scenarios.</div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div>
+        </div>
+      </div>
+      <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
+    </div>
+  </div>
 
-> 🏝️ *I am a strong advocate for open science. All the projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.*
+  <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
+    <div class="research-intro">
+      <p>欢迎来到我的主页！我目前是山东大学<a href="https://www.sc.sdu.edu.cn">软件学院</a>博士研究生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 与 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>，并与 Dr. <a href="https://lee-zixu.github.io">Zixu Li</a> 保持紧密合作。我的研究兴趣主要聚焦于<strong>多模态理解、鲁棒跨模态学习、可信评测与近似近邻检索</strong>。</p>
+      <p>我的研究围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开：一方面，我关注细粒度视觉-语言语义融合、组合式图文/视频理解、属性感知表征学习与复杂场景意图解耦，代表工作包括 <strong>COMBINER</strong>、<strong>STABLE</strong>、<strong>ConeSep</strong>、<strong>Air-Know</strong>、<strong>INTENT</strong>、<strong>HABIT</strong>、<strong>HUD</strong>、<strong>OFFSET</strong> 与 <strong>ENCODER</strong>；另一方面，我参与长视频理解、第一视角视觉推理与多模态评测系统构建，相关技术报告包括 <strong>R<sup>3</sup></strong>、<strong>TempRet</strong>、<strong>EgoAdapt</strong>、<strong>OmniEgo-R<sup>2</sup></strong> 与 <strong>EgoAction</strong>。</p>
+      <p>除学术论文外，我也积极参与开源研究与产业级系统研发。作为华为通用向量检索合作项目的核心成员，我参与 QSGNGT 图索引算法及其高吞吐向量检索优化；该项目自2023年至今蝉联 ANN-Benchmarks 官方测评世界第一，并支撑华为云 GaussDB / CSS VectorDB 的向量检索能力。相关工作曾获<strong>华为优秀技术合作成果奖</strong>，我也曾获得 <strong>BYD Scholarship</strong> 与 CICAS 智能电力场景竞赛<strong>特等奖</strong>。</p>
+    </div>
+    <div class="research-map">
+      <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
+      <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
+      <div class="research-lane top-lane">
+        <div class="research-node orange"><div class="node-title">多模态融合语义理解</div><div class="node-desc">设计实体-属性-关系对齐算法，优化跨模态语义交互结构。</div><div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a></div></div>
+        <div class="research-node orange"><div class="node-title">复杂场景意图特征解耦</div><div class="node-desc">针对复杂噪声与意图畸变，设计鲁棒的去噪与特征提取算法。</div><div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div></div>
+        <div class="research-node orange"><div class="node-title">属性感知高效表征</div><div class="node-desc">基于属性邻域拓扑与加速策略，实现轻量化高精度的表征学习。</div><div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div></div>
+      </div>
+      <div class="research-arrow">从多模态理解到证据驱动的大模型评测</div>
+      <div class="research-lane bottom-lane">
+        <div class="research-node blue"><div class="node-title">证据驱动的幻觉诊断与消歧</div><div class="node-desc">构建多模态外部证据链，评估并消除模型的不确定性与幻觉。</div><div class="node-papers"><a class="node-paper-link" href="#paper-retrack">ReTrack [AAAI 2026]</a><a class="node-paper-link" href="#paper-hud">HUD [ACM MM 2025]</a><a class="node-paper-link" href="#paper-r3">R<sup>3</sup> [CVPRW 2026]</a></div></div>
+        <div class="research-node blue"><div class="node-title">可信知识校准</div><div class="node-desc">构建噪声分离框架，实现大模型输出的校准与可信对齐。</div><div class="node-papers"><a class="node-paper-link" href="#paper-conesep">ConeSep [CVPR 2026]</a><a class="node-paper-link" href="#paper-airknow">Air-Know [CVPR 2026]</a><a class="node-paper-link" href="#paper-offset">OFFSET [ACM MM 2025]</a></div></div>
+        <div class="research-node blue"><div class="node-title">细粒度评测基准构建</div><div class="node-desc">针对复杂上下文场景，构建细粒度多模态评测基准。</div><div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div></div>
+      </div>
+      <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
+    </div>
+  </div>
+</div>
 
-# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
-Here's the link to our repo! Feel free to check it out. Any feedback or support are always welcome. Thanks for taking a look! ✨
-<br>
-<table style="width:100%; border:none; text-align:center; background-color:transparent;">
-  <tr style="border:none;">
-      <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/combiner-logo.png" alt="COMBINER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>COMBINER (TIP'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Paper</a> |  -->
-        <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/COMBINER" target="_blank">Code</a>
-      </span>
-    </td>
-      <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/tema-logo.png" alt="TEMA" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>TEMA (ACL'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> | 
-        <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
-      </span>
-    </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ConeSep (CVPR'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
-        <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>  
-      </span>
-    </td>  
-      </tr>
-  <tr style="border:none;">
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/airknow-logo.png" alt="Air-Know" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>Air-Know (CVPR'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="http://arxiv.org/abs/2604.19386" target="_blank">Paper</a> | 
-        <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>  
-      </span>
-    </td>  
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>INTENT (AAAI'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2604.18051" target="_blank">Paper</a> | 
-        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> 
-      </span>
-    </td>  
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>HABIT (AAAI'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2604.18037" target="_blank">Paper</a> | 
-        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> 
-      </span>
-    </td>
-      </tr>
-  <tr style="border:none;">
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ReTrack (AAAI'26)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="http://arxiv.org/abs/2604.17898" target="_blank">Paper</a> | 
-        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> 
-      </span>
-    </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>HUD (ACM MM'25)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2512.02792" target="_blank">Paper</a> | 
-        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a>
-      </span>
-    </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>OFFSET (ACM MM'25)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2507.05631" target="_blank">Paper</a> | 
-        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a>
-      </span>
-    </td>
-      </tr>
-  <tr style="border:none;">
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ENCODER (AAAI'25)</b><br>
-      <span style="font-size: 0.9em;">
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a> |
-        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a>
-      </span>
-    </td>
-  </tr>
-</table>
+<a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap"><span class="i18n-en-inline">↩ Back to Roadmap</span><span class="i18n-zh-inline">↩ 返回研究路线图</span></a>
 
+<div class="open-science-note">
+  <div class="i18n-en"><p> I am affiliated with the Intelligent Media Research Center (iLearn). I believe open-source research makes multimodal learning more reproducible and collaborative. Our lab's projects and papers are open-source; please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p></div>
+  <div class="i18n-zh"><p>我隶属于智能媒体研究中心 (iLearn)，并相信开源研究能够提升多模态学习的可复现性与协作性。实验室论文代码与相关项目持续开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提出宝贵意见。</p></div>
+</div>
 
-# 🔥 News
-- *2026.06.02*: &nbsp;🎉🎉 Thrilled to share that our team won the **1st Place**🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!
-- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two **1st places**🏅, two **2nd places**🥈, and one **3rd place**🥉 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!
-- *2026.04.30*: &nbsp;🎉🎉 One paper (COMBINER), was accepted by **TIP 2026**! Thanks to all co-authors!
-- *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026**! Thanks to all co-authors!
-- *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
-- *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Congratulations to all co-authors!
-- *2025.11.08*: &nbsp;🎉🎉 Three papers were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
-- *2025.10.18*: &nbsp;🎉🎉 As the core member, our team wins the **Grand Prize** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
-- *2025.07.05*: &nbsp;🎉🎉 Two paper have been accepted by **ACM MM 2025**! Thanks to our co-authors!
-- *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
-- *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
+<div class="opensource-section" id="open-source-projects">
+  <div class="section-kicker"><span class="i18n-en-inline">💻 Open Science</span><span class="i18n-zh-inline">💻 开放科学</span></div>
+  <div class="opensource-title"><span class="i18n-en-inline">Our Open Source Projects</span><span class="i18n-zh-inline">我们的开源项目</span></div>
+  <p class="opensource-subtitle i18n-en">Below are representative project pages and repositories from our recent works. Feedback, issues, and pull requests are warmly welcome.</p>
+  <p class="opensource-subtitle i18n-zh">以下是我们近期代表性工作的项目主页与代码仓库，欢迎反馈、Issue 与 PR。</p>
+  <div class="opensource-grid" id="opensource-grid">
+    <div class="opensource-card">
+      <img src="../images/combiner-logo.png" alt="COMBINER">
+      <div class="opensource-card-title">COMBINER</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">TIP 2026 · Attribute-aware Efficient Representation</span><span class="i18n-zh-inline">TIP 2026 · 属性感知高效表征</span></div>
+      <div class="opensource-card-links"><a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/tema-logo.png" alt="TEMA">
+      <div class="opensource-card-title">TEMA</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACL 2026 Main · Benchmark</span><span class="i18n-zh-inline">ACL 2026 Main · 评测基准</span></div>
+      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.21806" target="_blank" title="Open TEMA paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank" title="Open TEMA project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/consep-logo.png" alt="ConeSep">
+      <div class="opensource-card-title">ConeSep</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">CVPR 2026 · Robust Unlearning</span><span class="i18n-zh-inline">CVPR 2026 · 鲁棒噪声遗忘</span></div>
+      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.20358" target="_blank" title="Open ConeSep paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank" title="Open ConeSep project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/airknow-logo.png" alt="Air-Know">
+      <div class="opensource-card-title">Air-Know</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">CVPR 2026 · Knowledge Calibration</span><span class="i18n-zh-inline">CVPR 2026 · 知识校准</span></div>
+      <div class="opensource-card-links"><a href="http://arxiv.org/abs/2604.19386" target="_blank" title="Open Air-Know paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank" title="Open Air-Know project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/habit-logo.png" alt="HABIT">
+      <div class="opensource-card-title">HABIT</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2026 · Robust Progressive Learning</span><span class="i18n-zh-inline">AAAI 2026 · 鲁棒渐进学习</span></div>
+      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.18037" target="_blank" title="Open HABIT paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank" title="Open HABIT project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/retrack-logo.png" alt="ReTrack">
+      <div class="opensource-card-title">ReTrack</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2026 · Evidence-driven Reliable Reasoning</span><span class="i18n-zh-inline">AAAI 2026 · 证据驱动可靠推理</span></div>
+      <div class="opensource-card-links"><a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/intent-logo.png" alt="INTENT">
+      <div class="opensource-card-title">INTENT</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2026 · Intent Disentanglement</span><span class="i18n-zh-inline">AAAI 2026 · 意图解耦</span></div>
+      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.18051" target="_blank" title="Open INTENT paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank" title="Open INTENT project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/hud-logo.png" alt="HUD">
+      <div class="opensource-card-title">HUD</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACM MM 2025 · Uncertainty Disambiguation</span><span class="i18n-zh-inline">ACM MM 2025 · 不确定性消歧</span></div>
+      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2512.02792" target="_blank" title="Open HUD paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank" title="Open HUD project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/encoder-logo.png" alt="ENCODER">
+      <div class="opensource-card-title">ENCODER</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2025 · Multimodal Semantic Fusion</span><span class="i18n-zh-inline">AAAI 2025 · 多模态语义融合</span></div>
+      <div class="opensource-card-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/offset-logo.png" alt="OFFSET">
+      <div class="opensource-card-title">OFFSET</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACM MM 2025 · Trustworthy Knowledge Calibration</span><span class="i18n-zh-inline">ACM MM 2025 · 可信知识校准</span></div>
+      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2507.05631" target="_blank" title="Open OFFSET paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank" title="Open OFFSET project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
+    </div>
+  </div>
+</div>
 
+<div class="news-section" id="news">
+  <div class="section-kicker"><span class="i18n-en-inline">🔥 Updates</span><span class="i18n-zh-inline">🔥 最新动态</span></div>
+  <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="news-date">2026.06.02</div>
+      <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.05.14</div>
+      <div class="news-text">🎉🎉 Thrilled to share that our team won two <strong>1st places</strong>🏅, two <strong>2nd places</strong>🥈, and one <strong>3rd place</strong>🥉 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.04.30</div>
+      <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.04.07</div>
+      <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026</strong>! Thanks to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.03.17</div>
+      <div class="news-text">🎉🎉 One paper (STABLE), was accepted by <strong>TKDE 2026</strong>! Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.02.21</div>
+      <div class="news-text">🎉🎉 Two papers (ConeSep, Air-Know), were accepted by <strong>CVPR 2026</strong>! Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.11.08</div>
+      <div class="news-text">🎉🎉 Three papers were accepted by <strong>AAAI 2026</strong>! Thanks and Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.10.18</div>
+      <div class="news-text">🎉🎉 As the core member, our team wins the <strong>Grand Prize</strong> in the CICAS Smart Power Scenario Competition. Congratulations to all team members!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.07.05</div>
+      <div class="news-text">🎉🎉 Two paper have been accepted by <strong>ACM MM 2025</strong>! Thanks to our co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2024.12.10</div>
+      <div class="news-text">🎉🎉 One paper has been accepted by <strong>AAAI 2025</strong>! Congratulations to our co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2024.09.13</div>
+      <div class="news-text">🎉🎉 I was honored to receive the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)</strong>.</div>
+    </div>
+  </div>
+</div>
 
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
@@ -236,7 +881,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
 
-<div class='paper-box floating-card' data-tags="TIP 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
+<div id='paper-combiner' class='paper-box floating-card' data-tags="TIP 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [[Paper]](https://arxiv.org/abs/2606.04604) [[Project]](https://lee-zixu.github.io/COMBINER.github.io/) [[Code]](https://github.com/Lee-zixu/COMBINER) [[Official Version]](https://ieeexplore.ieee.org/abstract/document/11534406)
@@ -247,7 +892,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
-<div class='paper-box floating-card' data-tags="TKDE 2026, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
+<div id='paper-stable' class='paper-box floating-card' data-tags="TKDE 2026, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [[Paper]](https://www.computer.org/csdl/journal/tk/5555/01/11450508/2f5S8Le2iZ2)
 
@@ -257,7 +902,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
+<div id='paper-conesep' class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Project]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep) [[Official Version]](https://openaccess.thecvf.com/content/CVPR2026/html/Li_ConeSep_Cone-based_Robust_Noise-Unlearning_Compositional_Network_for_Composed_Image_Retrieval_CVPR_2026_paper.html)
@@ -270,7 +915,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div id='paper-airknow' class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Project]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know) [[Official Version]](https://openaccess.thecvf.com/content/CVPR2026/html/Fu_Air-Know_Arbiter-Calibrated_Knowledge-Internalizing_Robust_Network_for_Composed_Image_Retrieval_CVPR_2026_paper.html)
@@ -282,7 +927,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div id='paper-intent' class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18051) [[Project]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) 
@@ -293,7 +938,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="ACM MM 2025, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div id='paper-offset' class='paper-box floating-card' data-tags="ACM MM 2025, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2507.05631) [[Project]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755366) 
@@ -304,7 +949,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="ACM MM 2025, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
+<div id='paper-hud' class='paper-box floating-card' data-tags="ACM MM 2025, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[Paper]](https://arxiv.org/abs/2512.02792) [[Project]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755445) 
@@ -316,7 +961,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
 
-<div class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div id='paper-tema' class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
@@ -327,7 +972,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div> 
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
+<div id='paper-retrack' class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](http://arxiv.org/abs/2604.17898) [[Project]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) 
@@ -337,7 +982,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 </div>
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div id='paper-habit' class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18037) [[Project]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) 
@@ -350,7 +995,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2025, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
+<div id='paper-encoder' class='paper-box floating-card' data-tags="AAAI 2025, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Project]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://github.com/Lee-zixu/ENCODER) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/32541)
@@ -363,7 +1008,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="Preprint, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
+<div id='paper-finecir' class='paper-box floating-card' data-tags="Preprint, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
@@ -373,7 +1018,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 </div>
 
-<div class='paper-box floating-card' data-tags="ACM ToMM 2026, CCF B"><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
+<div id='paper-refine' class='paper-box floating-card' data-tags="ACM ToMM 2026, CCF B"><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[Paper]](https://dl.acm.org/doi/10.1145/3796712) [[Project]](https://sdu-l.github.io/REFINE.github.io/) [[Code]](https://github.com/iLearn-Lab/TOMM26-REFINE) [[Official Version]](https://dl.acm.org/doi/10.1145/3796712) 
 
@@ -392,7 +1037,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div id='paper-r3' class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
@@ -403,7 +1048,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div id='paper-temp-ret' class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24470)
@@ -414,7 +1059,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, First Author, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div id='paper-egoadapt' class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, First Author, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24500)
@@ -425,7 +1070,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div id='paper-omniego' class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24481)
@@ -436,7 +1081,7 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 3rd🥉, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div id='paper-egoaction' class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 3rd🥉, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24496)
@@ -446,8 +1091,70 @@ Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](ht
 </div>
 </div>
 
+
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">🏭 Industry Project</span><span class="i18n-zh-inline">🏭 产业项目</span></h1>
+
+<div class='paper-box floating-card industry-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
+<div class='paper-box-text'>
+<div class="industry-project-title i18n-en"><strong>Huawei General Vector Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
+<div class="industry-project-title i18n-zh"><strong>华为通用向量检索合作项目</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">产品页面</a></div>
+<div class="award-ribbon">
+  <span class="i18n-en-flex">🏆 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
+  <span class="i18n-en-flex">🏆 Ranked No.1 in the world since 2023</span>
+  <span class="i18n-zh-flex">🏆 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
+  <span class="i18n-zh-flex">🏆 自2023年至今蝉联世界第一</span>
+</div>
+<p class="i18n-en">As a core contributor, I participated in the Huawei collaboration project on general-purpose vector search and contributed to the QSGNGT graph-indexing algorithm. In the official ANN-Benchmarks evaluation, QSGNGT outperformed competing algorithms from leading technology companies including Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and 01.AI, and has continuously ranked first worldwide since 2023. The system supports Huawei Cloud GaussDB / CSS VectorDB for large-scale vector search.</p>
+<p class="i18n-zh">作为核心成员，我参与华为通用向量检索合作项目，并参与 QSGNGT 图索引算法及其优化。该算法在 ANN-Benchmarks 官方评测中超过 Google、Microsoft、Meta、Yahoo、京东、阿里巴巴、零一万物等代表性参与单位/基线算法，自2023年至今蝉联世界第一，并支撑华为云 GaussDB / CSS VectorDB 的大规模向量检索能力。</p>
+<div class="benchmark-orgs">
+  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表性参与单位 / 基线</span></div>
+  <div class="org-logo-strip">
+    <span class="org-logo-card"><img src="images/company-logos/google.svg" alt="Google">Google</span>
+    <span class="org-logo-card"><img src="images/company-logos/microsoft.svg" alt="Microsoft">Microsoft</span>
+    <span class="org-logo-card"><img src="images/company-logos/meta.svg" alt="Meta">Meta</span>
+    <span class="org-logo-card"><img src="images/company-logos/yahoo.svg" alt="Yahoo">Yahoo</span>
+    <span class="org-logo-card"><img src="images/company-logos/jd.svg" alt="JD.com">JD.com</span>
+    <span class="org-logo-card"><img src="images/company-logos/alibaba.svg" alt="Alibaba">Alibaba</span>
+    <span class="org-logo-card"><img src="images/company-logos/01ai.ico" alt="01.AI">01.AI</span>
+  </div>
+</div>
+</div></div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+
+  const roadmap = document.getElementById('research-map');
+  const backToRoadmapBtn = document.getElementById('roadmap-back-btn');
+  if (roadmap && backToRoadmapBtn) {
+    const roadmapLinks = document.querySelectorAll('.node-paper-link[href^="#paper-"]');
+    roadmapLinks.forEach(link => {
+      link.addEventListener('click', () => { backToRoadmapBtn.classList.add('show'); });
+    });
+    backToRoadmapBtn.addEventListener('click', () => { backToRoadmapBtn.classList.remove('show'); });
+  }
+  const languageSwitcher = document.getElementById('research-language-switcher');
+  if (languageSwitcher) {
+    const tabs = languageSwitcher.querySelectorAll('.lang-tab');
+    const panels = languageSwitcher.querySelectorAll('.lang-panel');
+    const setLanguage = (lang) => {
+      document.body.classList.toggle('lang-en', lang === 'en');
+      document.body.classList.toggle('lang-zh', lang === 'zh');
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+      tabs.forEach(tab => {
+        const active = tab.dataset.lang === lang;
+        tab.classList.toggle('active', active);
+        tab.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      panels.forEach(panel => { panel.classList.toggle('active', panel.dataset.langPanel === lang); });
+    };
+    setLanguage(languageSwitcher.querySelector('.lang-tab.active')?.dataset.lang || 'en');
+    tabs.forEach(tab => {
+      tab.addEventListener('mouseenter', () => setLanguage(tab.dataset.lang));
+      tab.addEventListener('click', () => setLanguage(tab.dataset.lang));
+      tab.addEventListener('focus', () => setLanguage(tab.dataset.lang));
+    });
+  }
+
   const wrapper = document.getElementById('publications-wrapper');
   if (!wrapper) return;
 
