@@ -679,7 +679,7 @@ Hi, I am Zhiwei Chen (陈智伟).
       <p>My research follows the trajectory of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video understanding, attribute-aware representation learning, and robust intent disentanglement, with representative works including <strong>COMBINER</strong>, <strong>STABLE</strong>, <strong>ConeSep</strong>, <strong>Air-Know</strong>, <strong>INTENT</strong>, <strong>HABIT</strong>, <strong>HUD</strong>, <strong>OFFSET</strong>, and <strong>ENCODER</strong>. On the evaluation side, I have contributed to long-form video and egocentric vision reasoning systems, including the CVPRW challenge technical reports <strong>R<sup>3</sup></strong>, <strong>TempRet</strong>, <strong>EgoAdapt</strong>, <strong>OmniEgo-R<sup>2</sup></strong>, and <strong>EgoAction</strong>.</p>
       <p>Beyond publications, I actively participate in open-source research and industry-scale systems. As a core member of the Huawei collaboration project on general-purpose vector search, I contributed to the QSGNGT graph-indexing algorithm and its optimization for high-throughput vector search. The project has continuously ranked first worldwide on ANN-Benchmarks since 2023 and supports Huawei Cloud GaussDB / CSS VectorDB. I have been recognized with the <strong>Huawei Outstanding Technical Collaboration Award</strong>, the <strong>BYD Scholarship</strong>, and the <strong>Grand Prize</strong> in the CICAS Smart Power Scenario Competition.</p>
     </div>
-    <div class="research-map" id="research-map">
+    <!-- <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
       <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
       <div class="research-lane top-lane">
@@ -718,7 +718,7 @@ Hi, I am Zhiwei Chen (陈智伟).
         </div>
       </div>
       <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
-    </div>
+    </div> -->
   </div>
 
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
@@ -727,7 +727,7 @@ Hi, I am Zhiwei Chen (陈智伟).
       <p>我的研究围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开：一方面，我关注细粒度视觉-语言语义融合、组合式图文/视频理解、属性感知表征学习与复杂场景意图解耦，代表工作包括 <strong>COMBINER</strong>、<strong>STABLE</strong>、<strong>ConeSep</strong>、<strong>Air-Know</strong>、<strong>INTENT</strong>、<strong>HABIT</strong>、<strong>HUD</strong>、<strong>OFFSET</strong> 与 <strong>ENCODER</strong>；另一方面，我参与长视频理解、第一视角视觉推理与多模态评测系统构建，相关技术报告包括 <strong>R<sup>3</sup></strong>、<strong>TempRet</strong>、<strong>EgoAdapt</strong>、<strong>OmniEgo-R<sup>2</sup></strong> 与 <strong>EgoAction</strong>。</p>
       <p>除学术论文外，我也积极参与开源研究与产业级系统研发。作为华为通用向量检索合作项目的核心成员，我参与 QSGNGT 图索引算法及其高吞吐向量检索优化；该项目自2023年至今蝉联 ANN-Benchmarks 官方测评世界第一，并支撑华为云 GaussDB / CSS VectorDB 的向量检索能力。相关工作曾获<strong>华为优秀技术合作成果奖</strong>，我也曾获得 <strong>BYD Scholarship</strong> 与 CICAS 智能电力场景竞赛<strong>特等奖</strong>。</p>
     </div>
-    <div class="research-map">
+    <!-- <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
       <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
       <div class="research-lane top-lane">
@@ -742,7 +742,7 @@ Hi, I am Zhiwei Chen (陈智伟).
         <div class="research-node blue"><div class="node-title">细粒度评测基准构建</div><div class="node-desc">针对复杂上下文场景，构建细粒度多模态评测基准。</div><div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div></div>
       </div>
       <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -1369,15 +1369,15 @@ document.addEventListener('DOMContentLoaded', function() {
 # 🔖 Patent 
 - (已授权)一种基于类社交先验的多模态语义表征方法及系统 - 公开号: *CN118194109A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202410235890.8/detail/abst)
 
-- (已授权)基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202411903224.3/detail/abst)
+<!-- - (已授权)基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202411903224.3/detail/abst) -->
 
 - 基于特征相似性和属性一致性协同约束的近似近邻混合检索的用户推荐方法及系统 - 公开号: *CN117453991A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202311201790.5/detail/abst)
 
-- 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202510274983.6/detail/abst)
+<!-- - 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202510274983.6/detail/abst)
 
 - 一种基于分割焦点偏移修正的组合图像检索方法及系统 - 公开号: *CN120144812A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202510143920.7/detail/abst)
 
-- 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202510142418.4/detail/abst)
+- 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202510142418.4/detail/abst) -->
 
 
 
