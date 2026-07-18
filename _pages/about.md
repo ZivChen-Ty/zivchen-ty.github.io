@@ -828,7 +828,7 @@ Hi, I am Zhiwei Chen (陈智伟).
   <div class="news-grid">
     <div class="news-card">
       <div class="news-date">2026.07.10</div>
-      <div class="news-text">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Thanks to all co-authors!</div>
+      <div class="news-text">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!</div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.06.02</div>
@@ -840,11 +840,11 @@ Hi, I am Zhiwei Chen (陈智伟).
     </div>
     <div class="news-card">
       <div class="news-date">2026.04.30</div>
-      <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</div>
+      <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Congratulations to all co-authors!</div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.04.07</div>
-      <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026</strong>! Thanks to all co-authors!</div>
+      <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026</strong>! Congratulations to all co-authors!</div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.03.17</div>
