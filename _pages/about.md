@@ -828,7 +828,7 @@ Hi, I am Zhiwei Chen (陈智伟).
   <div class="news-grid">
     <div class="news-card">
       <div class="news-date">2026.07.23</div>
-      <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the eCommerce Data Challenge at the eCommerce Workshop @ SIGIR 2026! Congratulations to all members!</span></div>
+      <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the eCommerce Data Challenge at the eCommerce Workshop @ SIGIR 2026! Congratulations to all members!</div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.07.10</div>
