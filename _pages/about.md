@@ -746,7 +746,7 @@ Hi, I am Zhiwei Chen (陈智伟).
   </div>
 </div>
 
-<a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap"><span class="i18n-en-inline">↩ Back to Roadmap</span><span class="i18n-zh-inline">↩ 返回研究路线图</span></a>
+<!-- <a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap"><span class="i18n-en-inline">↩ Back to Roadmap</span><span class="i18n-zh-inline">↩ 返回研究路线图</span></a> -->
 
 <div class="open-science-note">
   <div class="i18n-en"><p> I am affiliated with the Intelligent Media Research Center (iLearn). I believe open-source research makes multimodal learning more reproducible and collaborative. Our lab's projects and papers are open-source; please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p></div>
