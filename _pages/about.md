@@ -836,6 +836,10 @@ Hi, I am Zhiwei Chen (陈智伟).
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <div class="news-card">
+      <div class="news-date">2026.09.20</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>2nd Place</strong>🥈 in the SceneFun3D Benchmark Challenge at the Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop @ ECCV 2026! Congratulations to all members!</span></div>
+    </div>
+    <div class="news-card">
       <div class="news-date">2026.07.23</div>
       <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the eCommerce Data Challenge at the eCommerce Workshop @ SIGIR 2026! Congratulations to all members!</div>
     </div>
@@ -1415,6 +1419,7 @@ document.addEventListener('DOMContentLoaded', function() {
 - 1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.
 - 1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
 - 1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
+- 2nd place 🥈, ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. [[Link]](https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119)
 - 2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
 - 2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
 - 3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
